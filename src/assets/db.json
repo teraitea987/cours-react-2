@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "author": "From Scratch",
+      "content": "Passionné de Web j’ai toujours eu l’intuition que tout peut s’apprendre sur Internet, j’y ai appris l’anglais, la guitare, la permaculture, la cryptographie… jusqu’en 2019 où j’ai décidé d’apprendre le développement web. Dès lors j’ai créé ma chaine Youtube pour expliquer ce que j’apprenais, une sorte de prétexte pour coder beaucoup de choses par moi-même. Par la suite, en parallèle de mes premières missions Freelance, j’ai eu l’occasion d’enseigner le code en présentiel à plusieurs centaines d’élèves. Suite à ces expériences je me suis dit qu’il serait temps que je condense tout mon savoir, ma méthode, mais aussi toutes mes expériences d’enseignements dans des formations. Des formations que j’aurais rêvé d’avoir quand j’ai débuté. Ayant appris à coder il y a pas si longtemps je comprends parfaitement les problématiques, les questions et les attentes des débutants. ",
+      "date": 1621530288602,
+      "id": 1
+    },
+    {
+      "author": "Bill Gates",
+      "content": "Bill Gates est né le 28 octobre 1955 à Seattle (Etats-Unis), où son père est avocat d'affaire et sa mère professeure à l'université de Washington. Toujours à Seattle, c'est à l'école privée de Lakeside qu'il découvre l'informatique sur un de ces gigantesques ordinateurs de la fin des années 60, un PDP-10. A 13 ans. C'est avec son ami d'enfance Paul Allen qu'ils programment leurs premiers jeux et cherchent à optimiser des logiciels..",
+      "date": 1621536029778,
+      "id": 2
+    },
+    {
+      "author": "Mark Zuckerberg",
+      "content": "Mark Elliot Zuckerberg, né le 14 mai 1984 à White Plains dans l'État de New York, est un informaticien, chef d'entreprise et milliardaire américain. Il est le principal cofondateur du site et réseau social Facebook en 2004. Mark Zuckerberg est actuellement actionnaire important et le dirigeant du Groupe Meta. Le magazine Forbes le classe 8e fortune mondiale en 2019, estimée à 74,1 milliards de dollars.",
+      "date": 1621536056135,
+      "id": 3
+    }
+  ]
+}
