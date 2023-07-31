@@ -29,6 +29,8 @@ const Article = ({ article }) => {
 
   const handleDelete = () => {
     axios.delete('http://localhost:3004/articles/' + article.id);
+    console.log(article);
+    window.location.reload();
   }
 
   return (
@@ -42,7 +44,14 @@ const Article = ({ article }) => {
       <div className="btn-container">
         
         {isEditing ? <button onClick={(e) => handleEdit(e)}>Valider</button> : <button onClick={() => setIsEditing(true)}>Editer</button>}
-        <button onClick={() => handleDelete()}>Supprimer</button>
+        <button onClick={() =>{
+          if (
+            window.confirm("Voulez vous vraiment supprimer cet article ?")
+          )    
+          handleDelete()
+        } 
+      }
+        >Supprimer</button>
       </div>
     </div>
   );
